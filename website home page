@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MF Essentials</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f8f8f8;
+    color:#222;
+}
+
+header{
+    background:#111;
+    color:white;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    height:85vh;
+    background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+    url("https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=1400&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero p{
+    font-size:22px;
+    margin:20px 0;
+}
+
+.btn{
+    background:#d4af37;
+    color:black;
+    padding:15px 35px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 8%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:15px;
+}
+
+.card p{
+    padding:0 15px 20px;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+button{
+    background:#111;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    cursor:pointer;
+    margin:15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<div class="logo">MF Essentials</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Women</a>
+<a href="#">Boys</a>
+<a href="#">Girls</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h1>MF Essentials</h1>
+<p>Fashion for Women, Boys & Girls</p>
+
+<a class="btn" href="#">Shop Now</a>
+</div>
+</section>
+
+<section>
+
+<h2>Shop By Collection</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1496747611176-843222e1e57?auto=format&fit=crop&w=800&q=80">
+<h3>Women's Collection</h3>
+<p>Dresses, Abayas, Hijabs, Co-ords & More.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1519238359922-989348752efb?auto=format&fit=crop&w=800&q=80">
+<h3>Boys' Collection</h3>
+<p>Tracksuits, Hoodies, T-Shirts & Everyday Wear.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80">
+<h3>Girls' Collection</h3>
+<p>Beautiful Dresses, Matching Sets & Accessories.</p>
+</div>
+
+</div>
+
+</section>
+
+<section style="background:white;text-align:center;">
+
+<h2>Why Choose MF Essentials?</h2>
+
+<p>✔ Premium Quality</p>
+<p>✔ Affordable Prices</p>
+<p>✔ Fast UK Delivery</p>
+<p>✔ Secure Checkout</p>
+<p>✔ Family-Owned Business</p>
+
+<br>
+
+<button>Browse Collection</button>
+
+</section>
+
+<footer>
+
+<h2>MF Essentials</h2>
+
+<p>Style for Women, Boys & Girls</p>
+
+<br>
+
+<p>hello@mfessentials.co.uk</p>
+
+<p>© 2026 MF Essentials. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
